@@ -1,0 +1,23 @@
+{
+  "name": "animatedmodal",
+  "version": "1.0.0",
+  "description": "animatedModal.js is a jQuery plugin to create a fullscreen modal with CSS3 transitions. You can use the transitions from animate.css or create your own transitions. Previz version.",
+  "main": "animatedModal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Previz-app/animatedModal.js.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "João Pereira + Previz team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Previz-app/animatedModal.js/issues"
+  },
+  "homepage": "https://github.com/Previz-app/animatedModal.js#readme"
+}
