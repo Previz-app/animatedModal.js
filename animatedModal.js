@@ -68,9 +68,7 @@
         };
         //Apply stles
         id.css(initStyles);
-
-        modal.click(function(event) {       
-            event.preventDefault();
+        function open() {
             $('body, html').css({'overflow':'hidden'});
             if (href == idConc) {
                 if (id.hasClass(settings.modalTarget+'-off')) {
@@ -90,6 +88,13 @@
                 if (e.keyCode == 27)
                     close();
             });
+        };
+
+        modal.click(function(e) {
+            if (e && e.preventDefault) {
+                e.preventDefault();
+            }
+            openModal();
         });
 
         closeBt.click(function(event) {
