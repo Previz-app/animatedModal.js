@@ -127,6 +127,11 @@
             settings.afterOpen(); //afterOpen
         }
 
+        return {
+            open,
+            close
+        };
+
     }; // End animatedModal.js
 
 }(jQuery));
