@@ -4,6 +4,7 @@
  * website: http://www.joaopereira.pt
  * email: joaopereirawd@gmail.com
  * Licensed MIT 
+ * PATCHED FOR PREVIZ
 =========================================*/
 
 (function ($) {
